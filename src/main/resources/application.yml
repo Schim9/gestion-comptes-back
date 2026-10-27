@@ -1,0 +1,27 @@
+google:
+  sheets:
+    spreadsheet-id: ${SPREADSHEET_ID}
+    credentials-path: ${CREDENTIALS_PATH}
+
+jwt:
+  secret: ${JWT_SECRET}
+  expiration: ${JWT_EXPIRATION:86400000}
+
+app:
+  username: ${APP_USERNAME}
+  password: ${APP_PASSWORD}
+  libelle-budget-courses: ${APP_LIBELLE_COURSES:Course}
+  comptes:
+    compte1: ${APP_COMPTE1:CCM}
+    compte2: ${APP_COMPTE2:Boursorama}
+  labels-zones:
+    reel: ${APP_LABEL_REEL:Réel}
+    mouvement-a-venir: ${APP_LABEL_MOUVEMENT_A_VENIR:Mouvement à venir}
+    mouvements-recurrents: ${APP_LABEL_MOUVEMENTS_RECURRENTS:Mouvements récurrents}
+    previsionnel-fin-de-mois: ${APP_LABEL_PREVISIONNEL:Prévisionnel fin de mois}
+
+server:
+  port: ${SERVER_PORT:8080}
+
+cors:
+  allowed-origins: ${CORS_ALLOWED_ORIGINS:http://localhost:4200}

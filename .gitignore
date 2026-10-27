@@ -1,0 +1,10 @@
+target/
+*.jar
+*.war
+*.class
+.idea/
+*.iml
+.env
+credentials.json
+application-local.properties
+application-local.yml
