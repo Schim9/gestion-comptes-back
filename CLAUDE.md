@@ -66,7 +66,7 @@ util/
 | POST | `/api/months/{key}/pointer/{ligne}` | Oui | Pointe une opération prévisionnelle |
 | POST | `/api/months/{key}/depointer-reel/{ligne}` | Oui | Dépointé : remet en zone "à venir" + supprime du réel |
 
-Endpoints publics : `/api/auth/login`, `/api/status`, `/api/diagnostic/**`
+Endpoints publics : `/api/auth/login`, `/api/status`
 
 ## Structure du Google Sheet
 
